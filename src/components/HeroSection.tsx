@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import { Button } from "./ui/moving-border";
@@ -18,8 +19,8 @@ function HeroSection() {
         </h1>
         <p className="mt-4 mx-auto w-auto max-w-lg text-xl text-center text-neutral-400 font-medium">
           Dive into our comprehensive music courses and transform your musical
-          journey today. Whether you're a beginner or looking to refine your
-          skills, join us to unlock your true potential.
+          journey today. Whether you&lsquore a beginner or looking to refine
+          your skills, join us to unlock your true potential.
         </p>
 
         <div className="mt-10">

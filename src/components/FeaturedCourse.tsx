@@ -48,9 +48,11 @@ function FeaturedCourse() {
         ))}
       </div>
       <div>
-        <button className="bg-neutral-100 hover:cursor-pointer text-black py-1 px-3 rounded-xs">
-          View All Courses
-        </button>
+        <Link href={"/courses"}>
+          <button className="bg-neutral-100 hover:cursor-pointer text-black py-1 px-3 rounded-xs">
+            View All Courses
+          </button>
+        </Link>
       </div>
     </div>
   );

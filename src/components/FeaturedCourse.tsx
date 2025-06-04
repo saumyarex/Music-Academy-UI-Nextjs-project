@@ -3,7 +3,6 @@ import React from "react";
 import courseData from "../data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Link from "next/link";
-import { div } from "motion/react-client";
 
 interface Courses {
   id: number;

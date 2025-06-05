@@ -52,7 +52,7 @@ function TestimonialCards() {
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
 
       <div className="relative z-10">
-        <h2 className="text-4xl font-bold mb-7 text-center">
+        <h2 className="sm:text-4xl text-xl font-bold mb-7 text-center">
           Hear our Harmony: Voices of success
         </h2>
         <div>

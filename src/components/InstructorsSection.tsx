@@ -38,7 +38,7 @@ function InstructorsSection() {
   return (
     <div className="relative h-[30rem] overflow-hidden flex justify-center items-center">
       <WavyBackground className="">
-        <h2 className="md:text-7xl text-5xl font-bold tracking-wide">
+        <h2 className="md:text-7xl text-5xl font-bold tracking-wide text-center">
           Meet Our Instructors
         </h2>
         <p className="text-lg text-center">

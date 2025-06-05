@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
-import { BackgroundGradientAnimation } from "./ui/background-gradient-animation";
+import { WavyBackground } from "./ui/wavy-background";
 
 const instructors = [
   {
@@ -36,22 +36,19 @@ const instructors = [
 
 function InstructorsSection() {
   return (
-    <div className="flex flex-col gap-5 justify-center items-center h-96">
-      <BackgroundGradientAnimation>
-        <div className=" mt-20 md-10 flex flex-col items-center justify-center relative z-10">
-          <h2 className="md:text-7xl text-5xl font-bold tracking-wide">
-            Meet Our Instructors
-          </h2>
-          <p className="text-lg">
-            Discover the talented professionals who will guide your musical
-            journey
-          </p>
-        </div>
-
-        <div className="flex flex-row items-center justify-center mb-10 w-full mt-5 relative z-10">
+    <div className="relative h-[30rem] overflow-hidden flex justify-center items-center">
+      <WavyBackground className="">
+        <h2 className="md:text-7xl text-5xl font-bold tracking-wide">
+          Meet Our Instructors
+        </h2>
+        <p className="text-lg text-center">
+          Discover the talented professionals who will guide your musical
+          journey
+        </p>
+        <div className="flex flex-row items-center justify-center mb-10 w-full mt-5 ">
           <AnimatedTooltip items={instructors} />
         </div>
-      </BackgroundGradientAnimation>
+      </WavyBackground>
     </div>
   );
 }

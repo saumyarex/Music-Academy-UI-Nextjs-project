@@ -14,10 +14,18 @@ function Footer() {
       <div>
         <h2>Quick Links</h2>
         <ul className="font-normal text-gray-400 text-base mt-4">
-          <li className="hover:text-white hover:cursor-pointer">Home</li>
-          <li className="hover:text-white hover:cursor-pointer">About</li>
-          <li className="hover:text-white hover:cursor-pointer">Courses</li>
-          <li className="hover:text-white hover:cursor-pointer">Contact</li>
+          <li className="hover:text-white hover:cursor-pointer">
+            <Link href={"/"}>Home</Link>
+          </li>
+          <li className="hover:text-white hover:cursor-pointer">
+            <Link href={"/about"}>About</Link>
+          </li>
+          <li className="hover:text-white hover:cursor-pointer">
+            <Link href={"/courses"}>Courses</Link>
+          </li>
+          <li className="hover:text-white hover:cursor-pointer">
+            <Link href={"/contact"}>Contact</Link>
+          </li>
         </ul>
       </div>
       <div>

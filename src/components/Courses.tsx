@@ -7,9 +7,9 @@ import Image from "next/image";
 function Courses() {
   return (
     <div>
-      <h1 className="text-7xl font-extrabold text-white text-center mt-40">
+      <h1 className="sm:text-7xl text-5xl font-extrabold text-white text-center mt-40">
         Courses {`(${courseData.courses.length})`}
-        <div className="flex flex-wrap gap-10 mx-20 justify-center">
+        <div className="flex flex-wrap sm:gap-10 sm:mx-20 mx-4 justify-center">
           {courseData.courses.map((course) => (
             <div key={course.id}>
               <CardContainer className="inter-var">

@@ -6,28 +6,35 @@ This is a Next.js project with primary focused on the UI elemtent. This project 
 
 ## Screenshots
 
-Hero Section
+### Hero Section
+
 ![Hero Section](./screenshots/hero-section.jpg)
 
-Featured Courses
+### Featured Courses
+
 ![Featured Courses](./screenshots/featured-courses.jpg)
 
-Sticky Scroll
+### Sticky Scroll
+
 ![Sticky Scroll](./screenshots/sticky-scroll.jpg)
 
-Testimonial Section
+### Testimonial Section
+
 ![Testimonial Section](./screenshots/testimonials.jpg)
 
-Instructor Section and Footer
+### Instructor Section and Footer
+
 ![Instructor Section and Footer](./screenshots/footer.jpg)
 
-Courses Page
+### Courses Page
+
 ![Courses Page](./screenshots/courses.jpg)
 
-Contact Page
+### Contact Page
+
 ![Contact Page](./screenshots/contact.jpg)
 
-## 🎥 Live Demo
+## 🎥 [Live Demo](https://youtu.be/WZINW9YLxIw)
 
 [![Watch the demo](./screenshots/hero-section.jpg)](https://youtu.be/WZINW9YLxIw)
 

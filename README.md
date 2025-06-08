@@ -34,7 +34,7 @@ This is a Next.js project with primary focused on the UI elemtent. This project 
 
 ![Contact Page](./screenshots/contact.jpg)
 
-## 🎥 [Live Demo](https://youtu.be/WZINW9YLxIw)
+## 🎥 [Video Demo](https://youtu.be/WZINW9YLxIw)
 
 [![Watch the demo](./screenshots/hero-section.jpg)](https://youtu.be/WZINW9YLxIw)
 
